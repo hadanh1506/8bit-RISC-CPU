@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_risc_8bit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_risc_8bit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="462.028 ns"></ZoomStartTime>
+      <ZoomEndTime time="722.429 ns"></ZoomEndTime>
+      <Cursor1Time time="505.428 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="157"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="64" />
+   <wvobject fp_name="/tb_risc_8bit/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_pc" type="array">
+      <obj_property name="ElementShortName">debug_pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/p3_cs" type="logic">
+      <obj_property name="ElementShortName">p3_cs</obj_property>
+      <obj_property name="ObjectShortName">p3_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/p3_we" type="logic">
+      <obj_property name="ElementShortName">p3_we</obj_property>
+      <obj_property name="ObjectShortName">p3_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/alu_result_mem" type="array">
+      <obj_property name="ElementShortName">alu_result_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/write_data_mem" type="array">
+      <obj_property name="ElementShortName">write_data_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/mem_read_data_mem" type="array">
+      <obj_property name="ElementShortName">mem_read_data_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_read_data_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_sample" type="logic">
+      <obj_property name="ElementShortName">adc_sample</obj_property>
+      <obj_property name="ObjectShortName">adc_sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_ch" type="array">
+      <obj_property name="ElementShortName">adc_ch[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_ch[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/analog_vin" type="array">
+      <obj_property name="ElementShortName">analog_vin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">analog_vin[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_cmp" type="logic">
+      <obj_property name="ElementShortName">adc_cmp</obj_property>
+      <obj_property name="ObjectShortName">adc_cmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_dac" type="array">
+      <obj_property name="ElementShortName">adc_dac[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_dac[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/u_p3/u_timer_adc/adc_busy" type="logic">
+      <obj_property name="ElementShortName">adc_busy</obj_property>
+      <obj_property name="ObjectShortName">adc_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/u_p3/u_timer_adc/adc_result_valid" type="logic">
+      <obj_property name="ElementShortName">adc_result_valid</obj_property>
+      <obj_property name="ObjectShortName">adc_result_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/u_p3/u_timer_adc/adc_result_data" type="array">
+      <obj_property name="ElementShortName">adc_result_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_result_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/u_p3/u_timer_adc/fifo_level" type="array">
+      <obj_property name="ElementShortName">fifo_level[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_level[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/u_p3/u_timer_adc/fifo_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/u_p3/u_timer_adc/fifo_full" type="logic">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/pwm_out" type="logic">
+      <obj_property name="ElementShortName">pwm_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/irq" type="logic">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/cycle_count" type="array">
+      <obj_property name="ElementShortName">cycle_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/error_count" type="array">
+      <obj_property name="ElementShortName">error_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/pass_count" type="array">
+      <obj_property name="ElementShortName">pass_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pass_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_alu_ex" type="array">
+      <obj_property name="ElementShortName">debug_alu_ex[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_alu_ex[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_wb_data" type="array">
+      <obj_property name="ElementShortName">debug_wb_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_wb_rd" type="array">
+      <obj_property name="ElementShortName">debug_wb_rd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_wb_regwrite" type="logic">
+      <obj_property name="ElementShortName">debug_wb_regwrite</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/pwm_out" type="logic">
+      <obj_property name="ElementShortName">pwm_out</obj_property>
+      <obj_property name="ObjectShortName">pwm_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/irq" type="logic">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/pwm_high_seen" type="logic">
+      <obj_property name="ElementShortName">pwm_high_seen</obj_property>
+      <obj_property name="ObjectShortName">pwm_high_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/pwm_low_seen" type="logic">
+      <obj_property name="ElementShortName">pwm_low_seen</obj_property>
+      <obj_property name="ObjectShortName">pwm_low_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/irq_seen" type="logic">
+      <obj_property name="ElementShortName">irq_seen</obj_property>
+      <obj_property name="ObjectShortName">irq_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_sample_seen" type="logic">
+      <obj_property name="ElementShortName">adc_sample_seen</obj_property>
+      <obj_property name="ObjectShortName">adc_sample_seen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_sample_prev" type="logic">
+      <obj_property name="ElementShortName">adc_sample_prev</obj_property>
+      <obj_property name="ObjectShortName">adc_sample_prev</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/p3_write_count" type="array">
+      <obj_property name="ElementShortName">p3_write_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p3_write_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/p3_read_count" type="array">
+      <obj_property name="ElementShortName">p3_read_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p3_read_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_ctrl_write_count" type="array">
+      <obj_property name="ElementShortName">adc_ctrl_write_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_ctrl_write_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_sample_pulse_count" type="array">
+      <obj_property name="ElementShortName">adc_sample_pulse_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_sample_pulse_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/rch_read_count" type="array">
+      <obj_property name="ElementShortName">rch_read_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rch_read_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_data_read_count" type="array">
+      <obj_property name="ElementShortName">adc_data_read_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_read_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_stat_read_count" type="array">
+      <obj_property name="ElementShortName">adc_stat_read_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_stat_read_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/observed_adc_ctrl" type="array">
+      <obj_property name="ElementShortName">observed_adc_ctrl[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">observed_adc_ctrl[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/observed_sample_ch" type="array">
+      <obj_property name="ElementShortName">observed_sample_ch[0:3][1:0]</obj_property>
+      <obj_property name="ObjectShortName">observed_sample_ch[0:3][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/observed_rch" type="array">
+      <obj_property name="ElementShortName">observed_rch[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">observed_rch[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/observed_fifo_data" type="array">
+      <obj_property name="ElementShortName">observed_fifo_data[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">observed_fifo_data[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/observed_adc_stat" type="array">
+      <obj_property name="ElementShortName">observed_adc_stat[0:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">observed_adc_stat[0:1][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/alu_result_mem" type="array">
+      <obj_property name="ElementShortName">alu_result_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/write_data_mem" type="array">
+      <obj_property name="ElementShortName">write_data_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_wb_regwrite" type="logic">
+      <obj_property name="ElementShortName">debug_wb_regwrite</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_pc" type="array">
+      <obj_property name="ElementShortName">debug_pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_pc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_alu_ex" type="array">
+      <obj_property name="ElementShortName">debug_alu_ex[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_alu_ex[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_wb_data" type="array">
+      <obj_property name="ElementShortName">debug_wb_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/debug_wb_rd" type="array">
+      <obj_property name="ElementShortName">debug_wb_rd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/mem_read_data_mem" type="array">
+      <obj_property name="ElementShortName">mem_read_data_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_read_data_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_cmp" type="logic">
+      <obj_property name="ElementShortName">adc_cmp</obj_property>
+      <obj_property name="ObjectShortName">adc_cmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_sample" type="logic">
+      <obj_property name="ElementShortName">adc_sample</obj_property>
+      <obj_property name="ObjectShortName">adc_sample</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_ch" type="array">
+      <obj_property name="ElementShortName">adc_ch[1:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_ch[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/adc_dac" type="array">
+      <obj_property name="ElementShortName">adc_dac[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_dac[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/p3_cs" type="logic">
+      <obj_property name="ElementShortName">p3_cs</obj_property>
+      <obj_property name="ObjectShortName">p3_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_risc_8bit/uut/p3_we" type="logic">
+      <obj_property name="ElementShortName">p3_we</obj_property>
+      <obj_property name="ObjectShortName">p3_we</obj_property>
+   </wvobject>
+</wave_config>
